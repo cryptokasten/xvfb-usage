@@ -20,6 +20,8 @@ yum install xorg-x11-server-Xvfb
 Xvfb :99
 #+END_SRC
 
+[[https://github.com/cryptokasten/xvfb-systemd-service][Run the Xvfb as a service]].
+
 ** Run an application
 
 #+BEGIN_SRC sh
