@@ -14,6 +14,12 @@
 yum install xorg-x11-server-Xvfb
 #+END_SRC
 
+** Simple run
+
+#+BEGIN_SRC sh
+xvfb-run gui-application
+#+END_SRC
+
 ** Run the Xvfb virtual screen
 
 #+BEGIN_SRC sh
